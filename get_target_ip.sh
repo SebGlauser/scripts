@@ -6,8 +6,8 @@ targets_ip=".targets_ip"
 
 sudo ls > /dev/null 
 
-res_nmap=$(cat scan)
-#res_nmap="$(sudo nmap -sP -n 157.26.100.0/24)"
+#res_nmap=$(cat scan)
+res_nmap="$(sudo nmap -sP -n 157.26.100.0/24)"
 echo "Nmap done..."
 
 macs="$(sed "/^#/d" $targets | awk '{print $2}')"
