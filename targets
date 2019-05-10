@@ -1,7 +1,8 @@
 rpi3	B8:27:EB:EC:14:3F	pi
 rpi3p	B8:27:EB:43:3A:FA	pi
-tx2	00:04:4B:8D:5B:07	ubuntu
-tx1	00:04:4B:5A:C8:F8	ubuntu
+tx2	00:04:4B:8D:5B:07	nvidia
+tx1	00:04:4B:5A:C8:F8	nvidia
 z7	00:0A:35:00:1E:53	root
 zu	00:0A:35:00:22:01	root
 xav	00:04:4B:CB:AA:D7	nvidia
+nano	00:04:4B:CC:3D:C0	nvidia
