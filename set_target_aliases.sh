@@ -5,7 +5,7 @@ targets_ip=".targets_ip"
 mkdir -p ~/.config;
 
 sed "/^#/d" $targets_ip | sed "/not found/d" | awk '{print "alias ssh"$1"=\"ssh "$3"@"$4"\""}' | tee ~/.config/targets_alias
-sed "/^#/d" $targets_ip | sed "/not found/d" | awk '{print "alias ssh"$1"x=\"ssh -X "$3"@"$4"\""}' | tee ~/.config/targets_alias
+sed "/^#/d" $targets_ip | sed "/not found/d" | awk '{print "alias ssh"$1"x=\"ssh -X "$3"@"$4"\""}' | tee -a ~/.config/targets_alias
 
 
 echo ""
